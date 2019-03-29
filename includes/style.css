@@ -191,7 +191,7 @@ li a{
 
     .logo-title{
         font-size: 18px;
-        display: none;
+        /* display: none; */
     }
 
     #logo{
