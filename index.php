@@ -57,7 +57,7 @@
 </section>
 
 <section class="section-offers">
-    hjk
+    
 </section>
 
 <?php include "includes/footer.php" ?>
