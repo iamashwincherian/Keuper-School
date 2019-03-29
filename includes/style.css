@@ -248,7 +248,6 @@ li a{
     width: 100%;
     justify-content: space-around;
     padding-bottom: 60px;
-    flex-wrap: wrap;
 }
 
 .hots{
@@ -324,17 +323,39 @@ hr{
     margin-bottom: -10px;
 }
 
-@media screen and (max-width: 600px) {
-    .event-details-desc{
-        width: 300px;
-    }
-
-    #hots-gallery-img{
-        width: 300px;
-        height: auto;
+@media screen and (max-width: 1300px) {
+    .hots{
+        margin-left: 0;
         margin-right: 0;
     }
 
+    .levents{
+        padding-top: 0;
+    }
+
+    .gallery{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .event-details-desc{
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section-hots{
+        flex-wrap: wrap;
+    }
+
+    .levents{
+        order: 0;
+    }
+
+    .gallery{
+        order: 1;
+    }
+    
     .hots-title,
     .view-more{
         text-align: center;
@@ -343,14 +364,33 @@ hr{
 
     .event-details{
         margin-right: 0;
-        margin-left: 15px;
     }
 
-    .event-date-month,
-    .event-date-day,
-    .event-details-title,
-    .event-details-desc {
-        
+    .event-details-desc{
+        width: 400px;
+    }
+
+    #hots-gallery-img{
+        width: 500px;
+        height: auto;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .event-details-desc{
+        width: 300px;
+    }
+
+    #hots-gallery-img{
+        width: 300px;
+        height: auto;
+    }
+
+
+    .event-details{
+        margin-right: 0;
+        margin-left: 15px;
     }
 
     .event-date-day{
@@ -365,6 +405,7 @@ hr{
     .event-details-title{
         font-size: 15px;
     }
+
 }
 
 @media screen and (max-width: 400px) {

@@ -29,28 +29,28 @@
         <hr>
         <a href="#" class="view-more">View More →</a>
     </div>
-    <div class="hots">
+    <div class="hots levents">
         <p id="events-title" class="hots-title">Latest Events</p>
-        <div class="events event1">
-            <div class="event-date">
-                <div class="event-date-month event-line1"><p>March</p></div>
-                <div class="event-date-day"><p>30</p></div>
+            <div class="events event1">
+                <div class="event-date">
+                    <div class="event-date-month event-line1"><p>March</p></div>
+                    <div class="event-date-day"><p>30</p></div>
+                </div>
+                <div class="event-details">
+                    <div class="event-details-title event-line1">Annual Day Celebration</div>
+                    <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
+                </div>
             </div>
-            <div class="event-details">
-                <div class="event-details-title event-line1">Annual Day Celebration</div>
-                <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
+            <div class="events event2">
+                <div class="event-date">
+                    <div class="event-date-month event-line1"><p>May</p></div>
+                    <div class="event-date-day"><p>05</p></div>
+                </div>
+                <div class="event-details">
+                    <div class="event-details-title event-line1">School Reopening</div>
+                    <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
+                </div>
             </div>
-        </div>
-        <div class="events event2">
-            <div class="event-date">
-                <div class="event-date-month event-line1"><p>May</p></div>
-                <div class="event-date-day"><p>05</p></div>
-            </div>
-            <div class="event-details">
-                <div class="event-details-title event-line1">School Reopening</div>
-                <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
-            </div>
-        </div>
         <hr>
         <a href="#" class="view-more">View More →</a>
     </div>
