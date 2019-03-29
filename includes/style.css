@@ -235,9 +235,11 @@ li a{
 
     .hero-subline{
         font-size: 15px;
-        margin-bottom: 50px;
     }
-
+    
+    .section-hero{
+        height: 70vh;
+    }
 
 }
 
