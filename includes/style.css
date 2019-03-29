@@ -191,10 +191,11 @@ li a{
 
     .logo-title{
         font-size: 18px;
+        display: none;
     }
 
     #logo{
-        height: 60px;
+        height: 80px;
         width: auto;
     }
 
