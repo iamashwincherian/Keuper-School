@@ -238,7 +238,7 @@ li a{
     }
 
     .section-hero{
-        height: 50vh;
+        padding: 0 50px;
     }
 }
 
