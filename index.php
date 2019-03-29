@@ -26,7 +26,7 @@
     <div class="hots gallery">
         <p id="gallery-title" class="hots-title">Gallery</p>
         <img id="hots-gallery-img" src="lib/imgs/gallery-img.png" alt="Gallery Img">
-        <hr>
+        <hr id="hr-gallery">
         <a href="#" class="view-more">View More →</a>
     </div>
     <div class="hots levents">
@@ -51,7 +51,7 @@
                     <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
                 </div>
             </div>
-        <hr>
+        <hr id="hr-events">
         <a href="#" class="view-more">View More →</a>
     </div>
 </section>
