@@ -411,7 +411,11 @@ hr{
 
 @media screen and (max-width: 400px) {
     .event-details-desc{
-        width: 250px;
+        width: auto;
+    }
+
+    .events{
+        margin: 0 20px 20px 20px;
     }
 
     #hots-gallery-img{
