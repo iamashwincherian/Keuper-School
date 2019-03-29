@@ -1,0 +1,280 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    box-shadow: 0px 3px 19px -4px rgba(0,0,0,0.75);
+    z-index: 1;
+    align-items: center;
+}
+
+.uls{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    margin: 0 20px;
+}
+
+.fa-bars{
+    display: none;
+    right: 0;
+    position: absolute;
+    font-size: 30px;
+    color: #15215D;
+    margin-right: 50px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: #15215D;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 3px 0;
+}
+
+.ul-right li a:hover {
+    border-bottom: 1.5px solid #15215D;
+}
+
+.ul-right{
+    margin: 0 80px; 
+}
+
+.ul-left{
+    margin: 0 60px; 
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+.logo-title {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo-title-right{
+    margin-left: -20px;
+}
+
+
+/* --------------- Hero --------------- */
+
+
+.section-hero{
+    background-image: url("../lib/imgs/hero-img.png");
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height:86vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero { 
+    padding: 0 100px;
+    color: #fff;
+}
+
+.hero-title{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-subline{
+    font-size: 20px;
+    margin-bottom: 170px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1252px) {
+    li a{
+        font-size: 17px;
+        padding: 3px 0;
+    }
+
+    .logo-title{
+        font-size: 25px;
+    }
+
+    #logo-title-right{
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 1156px) {
+    li{
+        margin: 0 10px;
+    }
+
+    .logo-title{
+        font-size: 25px;
+    }
+
+    #logo-title-right{
+        margin-left: -10px;
+    }
+
+    .ul-right{
+        margin-right:80px; 
+        margin-left: 40px;
+    }
+    
+    .ul-left{
+        margin-left: 50px; 
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1144px) {
+    .ul-right{
+        display: none;
+    }
+
+    .uls{
+        justify-content: center;
+    }
+
+    #logo-title-right{
+        margin-left: 0px;
+    }
+
+    .ul-left{
+        margin-left: 20px;
+    }
+
+    .ul-left :nth-child(1){order: 2;}
+    .ul-left :nth-child(2){order: 1;}
+    .ul-left :nth-child(3){order: 3;}
+
+    .fa-bars {
+        display: unset;
+    }
+
+    .hero-title{
+        font-size: 40px;
+    }
+}
+
+
+/* --------------- Hots --------------- */
+
+
+.section-hots{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.hots{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+}
+
+.hots-title{
+    font-size: 35px;
+    color: #29293a;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 30px 0px;
+    padding-top: 30px;
+}
+
+#hots-gallery-img{
+    width: 400px;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+hr{
+    border: 1px solid #0000001a;
+    margin-bottom: 15px;
+}
+
+.view-more{
+    text-decoration: none;
+    font-weight: 700;
+    color: #00000080;
+    font-size: 20px;
+}
+
+.events{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.event-date p{
+    text-align: right;
+}
+
+.event-details{
+    margin: 0 40px;
+}
+
+.event-date-day{
+    font-size: 60px;
+    font-weight: 700;
+    color: #29293a;
+}
+
+.event-date-month{
+    font-weight: 600;
+    color: #00000080;
+}
+
+.event-details-title{
+    font-weight: 700;
+    color: #29293a;
+}
+
+.event-details-desc{
+    width: 400px;
+    color: #00000080;
+    margin-top: 15px;
+}
+
+.event-line1{
+    margin-bottom: -10px;
+}
+
+/* --------------- Offers --------------- */
+
+.section-offers{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff9f1;
+}
