@@ -189,10 +189,6 @@ li a{
 
 @media screen and (max-width: 600px) {
 
-    .uls{
-        justify-content: center;
-    }
-
     .logo-title{
         font-size: 18px;
     }
@@ -209,6 +205,10 @@ li a{
 
     .events{
         display: none;
+    }
+
+    .hero{
+        padding: 0 50px;
     }
 
     .ul-left{
@@ -229,7 +229,7 @@ li a{
     }
 
     .hero-title{
-        font-size: 40px;
+        font-size: 20px;
     }
 }
 
