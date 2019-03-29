@@ -236,6 +236,10 @@ li a{
     .hero-subline{
         font-size: 15px;
     }
+
+    .section-hero{
+        height: 50vh;
+    }
 }
 
 /* --------------- Hots --------------- */
