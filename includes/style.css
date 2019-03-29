@@ -208,7 +208,7 @@ li a{
     }
 
     .hero{
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
     .ul-left{
@@ -229,7 +229,12 @@ li a{
     }
 
     .hero-title{
-        font-size: 20px;
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .hero-subline{
+        font-size: 15px;
     }
 }
 
