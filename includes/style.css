@@ -19,6 +19,7 @@ nav{
     align-items: center;
 }
 
+
 .uls{
     display: flex;
     height: 120px;
@@ -197,12 +198,16 @@ li a{
     }
 
     #logo{
-        height: 50px;
+        height: 30px;
         width: auto;
     }
 
     .fa-bars {
         font-size: 20px;
+    }
+
+    .events{
+        display: none;
     }
 
     .ul-left{
@@ -220,7 +225,7 @@ li a{
 
 
 .section-hots{
-    display: flex;
+    display: none;
     width: 100%;
     justify-content: space-around;
     padding-bottom: 60px;
