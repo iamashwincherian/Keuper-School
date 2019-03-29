@@ -203,10 +203,6 @@ li a{
         margin-right: 38px;
     }
 
-    .events{
-        display: none;
-    }
-
     .hero{
         padding: 0 30px;
     }
@@ -239,6 +235,7 @@ li a{
     
     .section-hero{
         height: 70vh;
+
     }
 
 }
@@ -247,7 +244,7 @@ li a{
 
 
 .section-hots{
-    display: none;
+    display: flex;
     width: 100%;
     justify-content: space-around;
     padding-bottom: 60px;
@@ -325,6 +322,61 @@ hr{
 
 .event-line1{
     margin-bottom: -10px;
+}
+
+@media screen and (max-width: 600px) {
+    .event-details-desc{
+        width: 300px;
+    }
+
+    #hots-gallery-img{
+        width: 300px;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .hots-title,
+    .view-more{
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .event-details{
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .event-date-month,
+    .event-date-day,
+    .event-details-title,
+    .event-details-desc {
+        
+    }
+
+    .event-date-day{
+        font-size: 40px;
+        margin-top: 8px;
+    }
+
+    .event-date-month{
+        font-size: 15px;
+    }
+
+    .event-details-title{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .event-details-desc{
+        width: 200px;
+    }
+
+    #hots-gallery-img{
+        width: 250px;
+        height: auto;
+    }
+
 }
 
 /* --------------- Offers --------------- */

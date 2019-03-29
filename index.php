@@ -29,7 +29,7 @@
         <hr>
         <a href="#" class="view-more">View More →</a>
     </div>
-    <div class="hots events">
+    <div class="hots">
         <p id="events-title" class="hots-title">Latest Events</p>
         <div class="events event1">
             <div class="event-date">
