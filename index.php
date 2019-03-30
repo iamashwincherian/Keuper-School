@@ -3,9 +3,6 @@
 <Script>
     $(document).ready(function() {
         $(window).scroll(function () {
-            if ($(window).scrollTop() > 100) {
-                $('#nav').addClass('nav-opacity');
-            }
             if ($(window).scrollTop() > 400) {
                 $('#nav').removeClass('nav-opacity');
                 $('#nav').addClass('nav-fixed');
@@ -19,6 +16,7 @@
             }
         });
     });
+
 </Script>
 
 <nav id="nav">
@@ -31,7 +29,15 @@
         </ul>
         <ul class="ul ul-right">
             <li><a href="#">Home</a></li>
-            <li><a href="#">School</a></li>
+            <li><a href="#">School</a>
+                <ul class="nav-school-inner">
+                    <li style="background: none; height: 50px;"></li>
+                    <li class="a"><a class="b" href="#">Management</a></li>
+                    <li class="a"><a class="b" href="#">Aims & Objectives</a></li>
+                    <li class="a"><a class="b" href="#">Facilities</a></li>
+                    <li class="a"><a class="b" href="#">School Events</a></li>
+                </ul>
+             </li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">About Us</a></li>
         </ul>

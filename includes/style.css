@@ -18,6 +18,7 @@ body {
     align-items: center;
     z-index: 1;
     opacity: 1;
+    transition: opacity 2s;
 }
 
 .nav-opacity{
@@ -30,7 +31,6 @@ body {
     width: 100%;
     height: 80px;
     opacity: 1;
-    transition: opacity 2s;
 }
 
 .uls{
@@ -51,6 +51,47 @@ li{
     margin: 0 20px;
 }
 
+.ul-right li:nth-child(2):hover .nav-school-inner li{
+    display: block;
+    opacity: 0;
+    animation: nav 150ms ease-in-out forwards;
+}
+
+@keyframes nav{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.nav-school-inner{
+    position: absolute;
+}
+
+.nav-school-inner li{
+    display: none;
+    list-style-type: none;
+    margin-left: -20px;
+    background: #fff;
+    padding: 15px 20px;
+}
+
+.nav-school-inner li:hover,
+.nav-school-inner li:hover a{
+    background-color: #15215D;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-school-inner li a{
+    text-decoration: none;
+    color: #15215D;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 .fa-bars{
     display: none;
     right: 0;
@@ -60,9 +101,11 @@ li{
     margin-right: 50px;
 }
 
+.ul-left>li>a{
+    text-decoration: none;
+}
 
-
-li a{
+.ul-right>li>a{
     text-decoration: none;
     color: #15215D;
     font-size: 20px;
@@ -71,7 +114,7 @@ li a{
     padding: 3px 0;
 }
 
-.ul-right li a:hover {
+.ul-right>li>a:hover {
     border-bottom: 1.5px solid #15215D;
 }
 
@@ -136,7 +179,7 @@ li a{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1252px) {
+@media screen and (max-width: 1256px) {
     li a{
         font-size: 17px;
         padding: 3px 0;
@@ -148,6 +191,10 @@ li a{
 
     #logo-title-right{
         margin-left: -30px;
+    }
+
+    .ul-right{
+        margin-left: 20px;
     }
 }
 
@@ -212,9 +259,14 @@ li a{
         /* display: none; */
     }
 
+    #nav{
+        height: 90px;
+    }
+
     #logo{
         height: 60px;
         width: auto;
+        margin: 0;
     }
 
     .fa-bars {
@@ -237,6 +289,11 @@ li a{
         order: -1;
         justify-content: center;
         margin-bottom: 10px;
+    }
+
+    .ul-left li:nth-child(2),
+    .ul-left li:nth-child(3){
+        display: none;
     }
 
     .ul-left li:nth-child(3){
