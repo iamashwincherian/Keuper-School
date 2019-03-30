@@ -24,8 +24,8 @@
     <div class="uls">
         <ul class="ul ul-left">
             <li><img src="lib/imgs/logo.png" alt="logo" id="logo" class="logo"></li>
-            <li><a href="#" class="logo-title" id="logo-title-left">Keuper</a></li>
-            <li><a href="#" class="logo-title" id="logo-title-right">School</a></li>
+            <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
+            <li><p class="logo-title" id="logo-title-right">School</p></li>
         </ul>
         <ul class="ul ul-right">
             <li><a href="#">Home</a></li>
