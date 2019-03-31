@@ -82,9 +82,31 @@
         <a href="#" class="view-more">View More →</a>
     </div>
 </section>
-
-<section class="section-offers">
     
+<section class="section-offers">
+    <p id="offers-title">What We Offer</p>
+    <p id="offers-subline">At our education center, we provide a variety of benefits and advantages for your kid's successful edication, while allowing them to stay fully active, creative and healthy.</p>
+    <div class="offers">
+        <div class="offers-col">
+            <img class="offers-img" src="./lib/imgs/safety.png" alt="Safety Img">
+            <p class="offers-sub-title">Safety First</p>
+            <p class="offers-sub-subline">We offer first class protection and security for your children in Keuper</p>
+        </div>
+        <div class="offers-col">
+            <img class="offers-img" src="./lib/imgs/happy.png" alt="Safety Img">
+            <p class="offers-sub-title">Happy Environment</p>
+            <p class="offers-sub-subline">Our best conditions for your child to have the unique learning experience</p>
+        </div>
+        <div class="offers-col">
+            <img class="offers-img" src="./lib/imgs/creative.png" alt="Safety Img">
+            <p class="offers-sub-title">Creative Lessons</p>
+            <p class="offers-sub-subline">Our curriculum was designed to nurture creativity in all students of Keuper</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-contact">
+
 </section>
 
 <?php include "includes/footer.php" ?>
