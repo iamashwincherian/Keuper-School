@@ -46,7 +46,7 @@
 
 <section class="section-hero">
     <p class="hero hero-title">Good start for your child</p>
-    <p class="hero hero-subline">Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis<br>natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du<br>usce feugiat malesuada odio. Morbi nunc odio gravi.</p>
+    <p class="hero hero-subline">Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du usce feugiat malesuada odio. Morbi nunc odio gravi.</p>
 </section>
 
 <section class="section-hots">
@@ -106,7 +106,7 @@
 </section>
 
 <section class="section-contact">
-
+    <p id="offers-title">Contact Us</p>
 </section>
 
 <?php include "includes/footer.php" ?>
