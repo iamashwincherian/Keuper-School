@@ -342,7 +342,7 @@ li{
 
 @media screen and (max-width: 400px) {
     .hero-subline{
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         font-size: 12px;
     }
 
@@ -352,7 +352,7 @@ li{
     }
 
     .section-hero{
-        height: auto;
+        height: 50vh;
         padding: 0 20px;
     }
 
