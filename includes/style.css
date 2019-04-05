@@ -738,6 +738,7 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
+
     .footer-follow{
         order: -2;
     }
@@ -755,6 +756,10 @@ footer{
 @media screen and (max-width: 400px) {
     .address{
         width: 200px;
+    }
+
+    footer{
+        padding: 40px 0;
     }
 }
 
