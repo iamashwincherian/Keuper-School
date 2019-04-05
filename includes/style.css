@@ -707,6 +707,10 @@ footer{
     justify-content: center;
 }
 
+.footer-content-center-copy{
+    font-size: 15px;
+}
+
 .social-icon{
     font-size: 30px;
     margin: 0 10px;
