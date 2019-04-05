@@ -8,8 +8,6 @@
 body {
     height: 200vh;
     font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 a {
@@ -344,8 +342,20 @@ li{
 
 @media screen and (max-width: 400px) {
     .hero-subline{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
+        font-size: 12px;
     }
+
+    .hero-title{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .section-hero{
+        height: auto;
+        padding: 0 20px;
+    }
+
 }
 /* --------------- Hots --------------- */
 
@@ -645,10 +655,96 @@ hr{
     }
 }
 
-/* --------------- Contact --------------- */
+/* --------------- Footer --------------- */
 
-.section-contact{
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch | flex-start | flex-end | center | baseline;
+    background: #3D3D3D;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
+
+.footer-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
+
+.footer-content-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.footer-content-title-center,
+.footer-content-center-creator,
+.footer-content-center-copy,
+.footer-content-title-center-follow{
+    text-align: center;
+}
+
+.footer-center{
+    align-content: center;
+}
+
+.footer-subcontent{
+    color: #818181;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+.address,
+.footer-follow{
+    width: 400px;
+}
+
+.footer-contact-social{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-icon-facebook:hover{
+    color: #4267b2;
+}
+
+.social-icon-youtube:hover{
+    color: #ff0000;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-center{
+        flex: 0 0 100%;
+        order: 3;
+    }
+
+    .footer-content{
+        margin: 20px 0;
+    }
+    .footer-content-title,
+    .contact-content{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-follow{
+        order: -2;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .address{
+        width: 200px;
+    }
+}
+
