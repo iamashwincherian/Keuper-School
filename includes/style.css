@@ -730,6 +730,7 @@ footer{
     .footer-content{
         margin: 20px 0;
     }
+
     .footer-content-title,
     .contact-content{
         text-align: center;
@@ -740,6 +741,15 @@ footer{
     .footer-follow{
         order: -2;
     }
+
+    .footer-content{
+        margin: 0;
+    }
+
+    .footer-contact{
+        margin: 20px 0;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
