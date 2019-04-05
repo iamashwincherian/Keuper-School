@@ -76,7 +76,7 @@
     <div class="footer-content footer-center">
         <p class="footer-content-title footer-content-title-center">KEUPER SCHOOL</p>
         <p class="footer-content-center-copy footer-subcontent">Copyright &copy 2019, All rights reserved to Keuper</p>
-        <p class="footer-content-center-creator footer-subcontent">Created by Ashwin Cherian Joseph</p>
+        <p class="footer-content-center-creator footer-subcontent">Created <i class="fas fa-code code-icon"></i> by Ashwin Cherian Joseph</p>
     </div>
     <div class="footer-content footer-follow">
         <p class="footer-content-title footer-content-title-center-follow">Follow Us</p>

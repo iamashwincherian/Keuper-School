@@ -662,7 +662,7 @@ footer{
     justify-content: space-around;
     align-items: stretch | flex-start | flex-end | center | baseline;
     background: #3D3D3D;
-    padding: 100px 0;
+    padding: 70px 0;
     flex-wrap: wrap;
 }
 
@@ -710,6 +710,10 @@ footer{
 .social-icon{
     font-size: 30px;
     margin: 0 10px;
+    color: #fff;
+}
+
+.code-icon{
     color: #fff;
 }
 
