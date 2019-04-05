@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 200vh;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,9 +25,10 @@ a {
     display: flex;
     box-shadow: 0px 3px 19px -4px rgba(0,0,0,0.75);
     align-items: center;
-    z-index: 1;
-    opacity: 1;
-    transition: opacity 2s;
+    z-index: 2;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
 }
 
 .nav-opacity{
@@ -36,7 +36,7 @@ a {
 }
 
 .nav-fixed{
-    position: fixed;
+    
     background-color: #fff;
     width: 100%;
     height: 80px;
