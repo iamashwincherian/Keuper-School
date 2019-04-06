@@ -23,6 +23,7 @@
         }); 
 
         $('#close').click(function(){
+           $('.nav-school').css("display", "none");
            $('.navigation').css("display", "none");
         }); 
 
