@@ -17,12 +17,20 @@
 
             }
         });
+
+        $('#bars').click(function(){
+           $('.navigation').css("display", "unset");
+        }); 
+
+        $('#close').click(function(){
+           $('.navigation').css("display", "none");
+        }); 
     });
 
 </Script>
 
 <nav id="nav">
-    <i class="fas fa-bars"></i>
+    <i class="fas fa-bars" id="bars"></i>
     <div class="uls">
 
         <ul class="ul ul-left ul-left-unresponsive">
@@ -57,3 +65,18 @@
         </ul>
     </div>
 </nav>
+
+<div class="navigation">
+    <div class="navigation-head">
+        <i class="fas fa-arrow-left icon-back"></i>
+        <i class="icon-back-none"></i>
+        <h1>Keuper school</h1>
+        <i class="fas fa-times" id="close"></i>
+    </div>
+    <div class="navigation-items">
+        <a href="#">Home</a>
+        <a href="#">School</a>
+        <a href="#">Gallery</a>
+        <a href="#">About Us</a>
+    </div>
+</div>
