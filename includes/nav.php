@@ -74,7 +74,7 @@
         <i class="fas fa-times" id="close"></i>
     </div>
     <div class="navigation-items">
-        <a href="#">Home</a>
+        <a href="index">Home</a>
         <a href="#">School</a>
         <a href="#">Gallery</a>
         <a href="#">About Us</a>
