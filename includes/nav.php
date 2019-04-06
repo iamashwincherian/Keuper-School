@@ -20,7 +20,7 @@
 
         $('#bars').click(function(){
            $('.navigation').css("display", "unset");
-           $('.nav-home').css("display", "unset");
+           $('.nav-home').css("display", "flex");
         }); 
 
         $('#close').click(function(){
