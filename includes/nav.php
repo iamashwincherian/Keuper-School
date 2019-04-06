@@ -99,10 +99,11 @@
     <div class="navigation-head">
         <i class="fas fa-arrow-left icon-back"></i>
         <i class="icon-back-none"></i>
-        <h1>Keuper school</h1>
+        <!-- <h1>Keuper school</h1> -->
         <i class="fas fa-times" id="close"></i>
     </div>
     <div class="navigation-items nav-home">
+        <a>Keuper School</a>
         <a href="index">Home</a>
         <a href="#" id="nav-school">School</a>
         <a href="#">Gallery</a>

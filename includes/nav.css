@@ -42,7 +42,7 @@
 .navigation-head>i{
     font-size: 30px;
     color: white;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .navigation-items{
@@ -74,10 +74,11 @@
     opacity: 0;
 }
 
-.nav-school a:nth-child(1){
+.navigation-items a:nth-child(1){
     border-bottom: 2px solid #fff;
     padding: 0 10px;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 430px){
