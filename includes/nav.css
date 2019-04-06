@@ -49,6 +49,16 @@
     width: 26.25px;
 }
 
+.nav-school {
+    display: none;
+}
+
+.nav-school a:nth-child(1){
+    border-bottom: 2px solid #fff;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 430px){
     .navigation-head h1{
         font-size: 20px;

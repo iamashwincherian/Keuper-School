@@ -25,6 +25,21 @@
         $('#close').click(function(){
            $('.navigation').css("display", "none");
         }); 
+
+        $('#nav-school').click(function(){
+           $('.nav-home').css("display", "none");
+           $('.nav-school').css("display", "flex");
+           $('.icon-back').css("display", "unset");
+           $('.icon-back-none').css("display", "none");
+        }); 
+
+        $('.icon-back').click(function(){
+           $('.nav-home').css("display", "flex");
+           $('.nav-school').css("display", "none");
+           $('.icon-back').css("display", "none");
+           $('.icon-back-none').css("display", "unset");
+        }); 
+        
     });
 
 </Script>
@@ -73,10 +88,17 @@
         <h1>Keuper school</h1>
         <i class="fas fa-times" id="close"></i>
     </div>
-    <div class="navigation-items">
+    <div class="navigation-items nav-home">
         <a href="index">Home</a>
-        <a href="#">School</a>
+        <a href="#" id="nav-school">School</a>
         <a href="#">Gallery</a>
         <a href="#">About Us</a>
+    </div>
+    <div class="navigation-items nav-school">
+        <a>School</a>
+        <a href="#">Management</a>
+        <a href="#">Aims & Objectives</a>
+        <a href="#">Facilities</a>
+        <a href="#">School Events</a>
     </div>
 </div>
