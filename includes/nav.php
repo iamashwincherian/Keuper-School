@@ -21,12 +21,21 @@
         $('#bars').click(function(){
            $('.navigation').css("display", "unset");
            $('.nav-home').css("display", "flex");
+           $('.navigation').css("animation", "navi-in 200ms ease-in-out forwards");
         }); 
 
         $('#close').click(function(){
-           $('.nav-school').css("display", "none");
-           $('.navigation').css("display", "none");
+           $('.navigation').css("animation", "navi-out 200ms ease-in-out forwards");
+           setTimeout(close2, 200);
+
         }); 
+
+        function close2(){
+            $('.nav-school').css("display", "none");
+            $('.navigation').css("display", "none");
+            $('.icon-back').css("display", "none");
+            $('.icon-back-none').css("display", "unset");
+        }
 
         $('#nav-school').click(function(){
            $('.nav-home').css("display", "none");

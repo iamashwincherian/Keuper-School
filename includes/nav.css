@@ -5,6 +5,26 @@
     background-color: #15215D;
     z-index: 2;
     display: none;
+    opacity: 0;
+    animation: navi-in 200ms ease-in-out forwards;
+}
+
+@keyframes navi-in{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes navi-out{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .navigation-head{
