@@ -101,6 +101,7 @@
         <a href="#">Management</a>
         <a href="aims">Aims & Objectives</a>
         <a href="#">Facilities</a>
+        <a href="#">Downlaods</a>
         <a href="#">School Events</a>
     </div>
 </div>
