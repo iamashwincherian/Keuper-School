@@ -99,7 +99,7 @@
     <div class="navigation-items nav-school">
         <a>School</a>
         <a href="#">Management</a>
-        <a href="#">Aims & Objectives</a>
+        <a href="aims">Aims & Objectives</a>
         <a href="#">Facilities</a>
         <a href="#">School Events</a>
     </div>
