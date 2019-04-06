@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
-
 <?php include "includes/nav.php" ?>
 
-<p id="title">Gallery</p>
+<div class="nav-space"></div>
+asja
 
 <?php include "includes/footer.php" ?>

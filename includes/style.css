@@ -18,8 +18,13 @@ a {
     color: #29293a;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 30px;
+    padding: 30px;
 }
+
+.nav-space{
+    height: 120px;
+}
+
 
 #nav{
     display: flex;
@@ -36,7 +41,6 @@ a {
 }
 
 .nav-fixed{
-    
     background-color: #fff;
     width: 100%;
     height: 80px;
@@ -301,7 +305,13 @@ li{
         text-align: center;
     }
 
+    .nav-fixed{
+        height: 90px;
+    }
 
+    .remove{
+        display: none;
+    }
 
     .fa-bars {
         display: block;
@@ -332,6 +342,10 @@ li{
 }
 
 @media screen and (max-width: 600px) {
+
+    .nav-space{
+        height: 90px;
+    }
 
     .logo-title{
         font-size: 18px;

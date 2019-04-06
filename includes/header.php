@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
     <link href="includes/style.css" rel="stylesheet">
+    <link href="includes/aims.css" rel="stylesheet">
 
 </head>
 <body>
