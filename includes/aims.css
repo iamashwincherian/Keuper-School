@@ -121,6 +121,10 @@ h2 {
     .link{
         display: none;
     }
+
+    .aims-heading h1{
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 400px){
