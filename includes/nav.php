@@ -45,6 +45,7 @@
                     <li class="a"><a class="b" href="school.php">Aims & Objectives</a></li>
                     <li class="a"><a class="b" href="school.php">Facilities</a></li>
                     <li class="a"><a class="b" href="school.php">School Events</a></li>
+                    <li class="a"><a class="b" href="school.php">Downloads</a></li>
                 </ul>
              </li>
             <li><a href="gallery.php">Gallery</a></li>
