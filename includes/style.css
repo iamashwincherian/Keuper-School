@@ -61,6 +61,29 @@ li{
     margin: 0 20px;
 }
 
+.headline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headline li:nth-child(3){
+    flex: 0 0 100%;
+}
+
+.headline-title {
+    display: flex;
+}
+
+.logo-subline{
+    font-family: 'Marck Script', cursive;
+    color: #595959;
+    font-size: 18px;
+}
+
+.ul-left-responsive{
+    display: none;
+}
+
 .ul-right li:nth-child(2):hover .nav-school-inner li{
     display: block;
     opacity: 0;
@@ -129,11 +152,11 @@ li{
 }
 
 .ul-right{
-    margin: 0 80px; 
+    margin-right: 80px; 
 }
 
 .ul-left{
-    margin: 0 60px; 
+    margin-left: 60px; 
 }
 
 .logo{
@@ -155,6 +178,15 @@ li{
 
 #logo-title-right{
     margin-left: -20px;
+}
+
+@media screen and (max-width: 1300px){
+    .ul-right{
+        margin-right: 20px;
+    }
+    .ul-right>li>a{
+        font-size: 17px;
+    }
 }
 
 
@@ -236,8 +268,15 @@ li{
 }
 
 @media screen and (max-width: 1144px) {
-    .ul-right{
+    .ul-right,
+    .ul-left-unresponsive{
         display: none;
+    }
+
+    .ul-left-responsive{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .uls{
@@ -252,16 +291,29 @@ li{
         margin-left: 20px;
     }
 
+
     .ul-left :nth-child(1){order: 2;}
     .ul-left :nth-child(2){order: 1;}
     .ul-left :nth-child(3){order: 3;}
+    .ul-left :nth-child(4){
+        flex: 0 0 100%;
+        order: 4;
+        text-align: center;
+    }
+
+
 
     .fa-bars {
-        display: unset;
+        display: block;
     }
 
     .hero-title{
         font-size: 40px;
+    }
+
+    .logo{
+        height: 60px;
+        width: auto;
     }
 }
 
@@ -329,6 +381,10 @@ li{
 
     .ul-left li:nth-child(3){
         order: 1;
+    }
+
+    .ul-left li:nth-child(4){
+        margin-top: -10px;
     }
 
     .hero-title{

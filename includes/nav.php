@@ -20,10 +20,21 @@
 <nav id="nav">
     <i class="fas fa-bars"></i>
     <div class="uls">
-        <ul class="ul ul-left">
+
+        <ul class="ul ul-left ul-left-unresponsive">
+            <li><img src="lib/imgs/logo.png" alt="logo" id="logo" class="logo"></li>
+            <div class="headline">
+                <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
+                <li><p class="logo-title" id="logo-title-right">School</p></li>
+                <li><p class="logo-subline">45 years in teaching</p></li>
+            </div>
+        </ul>
+
+        <ul class="ul ul-left ul-left-responsive">
             <li><img src="lib/imgs/logo.png" alt="logo" id="logo" class="logo"></li>
             <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
             <li><p class="logo-title" id="logo-title-right">School</p></li>
+            <li><p class="logo-subline">45 years in teaching</p></li>
         </ul>
         <ul class="ul ul-right">
             <li><a href="index.php">Home</a></li>
