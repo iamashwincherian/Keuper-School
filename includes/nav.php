@@ -14,7 +14,6 @@
                 $('#logo').addClass('logo');
                 $('#logo').removeClass('logo-small');
                 $('#logo-subline').removeClass('remove');
-
             }
         });
 
@@ -26,29 +25,30 @@
 
         $('#close').click(function(){
            $('.navigation').css("animation", "navi-out 200ms ease-in-out forwards");
-           setTimeout(close2, 200);
-
+           setTimeout(() => {
+                $('.nav-school').css("display", "none");
+                $('.navigation').css("display", "none");
+                $('.icon-back').css("display", "none");
+                $('.icon-back-none').css("display", "unset");
+           }, 200); 
         }); 
 
-        function close2(){
-            $('.nav-school').css("display", "none");
-            $('.navigation').css("display", "none");
-            $('.icon-back').css("display", "none");
-            $('.icon-back-none').css("display", "unset");
-        }
-
         $('#nav-school').click(function(){
-           $('.nav-home').css("display", "none");
-           $('.nav-school').css("display", "flex");
-           $('.icon-back').css("display", "unset");
-           $('.icon-back-none').css("display", "none");
+            $('.nav-school').css("animation", "navi-in 200ms ease-in-out forwards");
+            $('.nav-home').css("display", "none");
+            $('.nav-school').css("display", "flex");
+            $('.icon-back').css("display", "unset");
+            $('.icon-back-none').css("display", "none");
         }); 
 
         $('.icon-back').click(function(){
-           $('.nav-home').css("display", "flex");
-           $('.nav-school').css("display", "none");
-           $('.icon-back').css("display", "none");
-           $('.icon-back-none').css("display", "unset");
+            $('.nav-school').css("animation", "navi-out 200ms ease-in-out forwards");
+            setTimeout(() => {
+                $('.nav-home').css("display", "flex");
+                $('.nav-school').css("display", "none");
+                $('.icon-back').css("display", "none");
+                $('.icon-back-none').css("display", "unset");
+            }, 200);
         }); 
         
     });

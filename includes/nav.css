@@ -71,6 +71,7 @@
 
 .nav-school {
     display: none;
+    opacity: 0;
 }
 
 .nav-school a:nth-child(1){
