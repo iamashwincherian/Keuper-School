@@ -9,6 +9,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+body.navigation { /* ...or body.dialogShowing */
+    overflow: hidden;
+  }
+
 a {
     text-decoration: none;
 }
