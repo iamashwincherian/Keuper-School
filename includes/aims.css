@@ -28,12 +28,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-.aims-heading p{
-    display: inline-block;
-    margin: auto 0;
-    color: white;
-}
-
 #foot-img {
     height: 500px;
     width: auto;
@@ -42,6 +36,9 @@ h2 {
 }
 
 .link{
+    display: inline-block;
+    margin: auto 0;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 600;
@@ -121,6 +118,18 @@ h2 {
         padding-right: 0;
     }
 
-
-
+    .link{
+        display: none;
+    }
 }
+
+@media screen and (max-width: 400px){
+    .aims-heading h1{
+        font-size: 25px;
+    }
+
+    .aims-body h2{
+        font-size: 18px;
+    }
+}
+
