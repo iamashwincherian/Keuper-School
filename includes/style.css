@@ -204,7 +204,7 @@ li{
 .section-hero{
     background-image: url("../lib/imgs/hero-img.png");
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     height:86vh;
     width: 100%;
