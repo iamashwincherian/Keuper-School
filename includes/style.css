@@ -329,6 +329,7 @@ li{
         height: 60px;
         width: auto;
     }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -346,6 +347,9 @@ li{
 }
 
 @media screen and (max-width: 600px) {
+    .logo-subline{
+        margin-top: -5px;
+    }
 
     .nav-space{
         height: 90px;
