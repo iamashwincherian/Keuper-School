@@ -1,9 +1,7 @@
 .section-about {
     /* background-color: #8B29C8; */
     /* background: linear-gradient(#8B29C8, #3D3D3D 90%); */
-    /* background: linear-gradient(#552397, #3D3D3D 80%); */
-    background: linear-gradient(#15215D, #3D3D3D 80%);
-    
+    background: linear-gradient(#552397, #3D3D3D 80%);
     display: flex;
     flex-direction: column;
     padding: 50px 0 0 0;
@@ -64,7 +62,7 @@
 }
 
 .box-title-dark{
-    color: #15215D;
+    color: #552397;
 }
 
 .box-title-light{
@@ -75,7 +73,7 @@
 .box-right{
     width: 50%;
     /* align-items: center; */
-    background-color: #15215D;
+    background-color: #48207c;
     padding: -2px;
     padding-left: 20px;
     border-radius: 42px;
@@ -95,8 +93,8 @@
     font-size: 17px;
     padding: 13px 18px;
     margin: 10px;
-    color: #15215D;
-    border: 1.5px solid #15215D;
+    color: #552397;
+    border: 1.5px solid #552397;
     border-radius: 13px;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -107,18 +105,18 @@
 }
 
 .inputs::placeholder{
-    color: #15215D;
+    color: #552397;
     opacity: 0.5;
 }
 
 .send-button{
-    background-color: #15215D;
+    background-color: #552397;
     color: white;
     font-weight: 400;
 }
 
 .send-button:hover{
-    background-color: #15215D;
+    background-color: #552397;
 }
 
 .contact-items{
