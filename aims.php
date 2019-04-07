@@ -22,8 +22,8 @@
             </ul>
         </div>
     </div>
-    <div class="foot">
-        <img src="./lib/imgs/foot.png" alt="Foot" id="foot-img">
+    <div class="aims">
+        <img src="./lib/imgs/aims.png" alt="Aims" id="aims-img">
     </div>
 </section>
 

@@ -84,7 +84,7 @@
                     <li style="background: none; height: 50px;"></li>
                     <li class="a"><a class="b" href="school.php">Management</a></li>
                     <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
-                    <li class="a"><a class="b" href="school.php">Facilities</a></li>
+                    <li class="a"><a class="b" href="facilities">Facilities</a></li>
                     <li class="a"><a class="b" href="school.php">School Events</a></li>
                     <li class="a"><a class="b" href="school.php">Downloads</a></li>
                 </ul>
@@ -113,7 +113,7 @@
         <a>School</a>
         <a href="#">Management</a>
         <a href="aims">Aims & Objectives</a>
-        <a href="#">Facilities</a>
+        <a href="facilities">Facilities</a>
         <a href="#">Downlaods</a>
         <a href="#">School Events</a>
     </div>

@@ -1,39 +1,19 @@
-h1 {
-    font-size: 30px;
-    color: white;
-    padding: 20px 20px 20px 0px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 23px;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-.section-aims {
-    background-color: #FFA727;
+.section-facilities {
+    background-color: #30BF47;
     display: flex;
     padding: 50px 0 100px 0;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.aims{
-    display: flex;
-    flex-direction: column;
-}
-
-.aims-heading{
+.facilities-heading{
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.404);
     margin-left: 80px;
     padding-bottom: 10px;
 }
 
-#aims-img {
+#foot-img {
     height: 500px;
     width: auto;
     margin-right: 100px;
@@ -54,19 +34,26 @@ h2 {
     padding: 0 10px;
 }
 
-.aims-body{
+.facilities-body{
     padding-top: 20px;
     margin-left: 80px;
     width: 800px;
 }
 
-.aims-body ul{
+.facilities-body ul{
     padding: 10px 0;
 }
 
-.aims-body ul>li {
-    font-size: 20px;
+.facilities-body ul>li {
+    font-size: 18px;
     margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.facilities-item-title{
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1.5px;
 }
 
 @media screen and (max-width: 1480px){
@@ -74,23 +61,20 @@ h2 {
         justify-content: center;
     }
 
-    .aims{
+    .foot{
         display: flex;
         align-content: center;
     }
 
-    .aims-body h2{
-        text-align: center;
-    }
 
-    .aims-heading {
+    .facilities-heading {
         flex-direction: column;
         margin-left: 0;
         margin: 0 80px;
     }
 
-    .aims-heading h1,
-    .aims-heading p{
+    .facilities-heading h1,
+    .facilities-heading p{
         text-align: center;
     }
 
@@ -98,13 +82,13 @@ h2 {
         padding: 0 0 10px 0;
     }
 
-    #aims-img {
+    #foot-img {
         height: 400px;
         width: auto;
         margin-right: 0;
     }
 
-    .aims-body{
+    .facilities-body{
         width: auto;
         padding: 0 20px;
         margin-left: 0;
@@ -113,12 +97,12 @@ h2 {
 }
 
 @media screen and (max-width: 510px){
-    .aims-heading,
-    .aims-body{
+    .facilities-heading,
+    .facilities-body{
         margin: 0 20px;
     }
 
-    .aims-body{
+    .facilities-body{
         margin-top: 20px;
         padding-right: 0;
     }
@@ -127,27 +111,24 @@ h2 {
         display: none;
     }
 
-    .aims-heading h1{
+    .facilities-heading h1{
         padding-right: 0;
     }
 
-    #aims-img {
+    #foot-img {
         height: 300px;
         width: auto;
     }
 }
 
 @media screen and (max-width: 400px){
-    .section-aims{
+    .section-facilities{
         padding-top: 15px;
     }
 
-    .aims-heading h1{
+    .facilities-heading h1{
         font-size: 25px;
     }
 
-    .aims-body h2{
-        font-size: 18px;
-    }
 }
 
