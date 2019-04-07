@@ -736,7 +736,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: stretch | flex-start | flex-end | center | baseline;
-    background: #3D3D3D;
+    /* background: #3D3D3D; */
     padding: 70px 0;
     flex-wrap: wrap;
 }

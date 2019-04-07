@@ -134,3 +134,13 @@
 
 }
 
+footer{
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.section-facilities{
+    background-image: linear-gradient(#30BF47 20%, #3D3D3D 90%);
+    padding-bottom: 0;
+}
+
