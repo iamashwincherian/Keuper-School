@@ -90,7 +90,7 @@
                 </ul>
              </li>
             <li><a href="gallery.php">Gallery</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about">About Us</a></li>
         </ul>
     </div>
 </nav>
@@ -107,7 +107,7 @@
         <a href="index">Home</a>
         <a href="#" id="nav-school">School</a>
         <a href="#">Gallery</a>
-        <a href="#">About Us</a>
+        <a href="about">About Us</a>
     </div>
     <div class="navigation-items nav-school">
         <a>School</a>

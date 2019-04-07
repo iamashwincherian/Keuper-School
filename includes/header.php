@@ -15,6 +15,7 @@
     <link href="includes/aims.css" rel="stylesheet">
     <link href="includes/nav.css" rel="stylesheet">
     <link href="includes/facilities.css" rel="stylesheet">
+    <link href="includes/about.css" rel="stylesheet">
 
 </head>
 <body>
