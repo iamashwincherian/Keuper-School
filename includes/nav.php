@@ -82,11 +82,11 @@
             <li><a href="#">School</a>
                 <ul class="nav-school-inner">
                     <li style="background: none; height: 50px;"></li>
-                    <li class="a"><a class="b" href="school.php">Management</a></li>
+                    <li class="a"><a class="b" href="comingSoon">Management</a></li>
                     <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
                     <li class="a"><a class="b" href="facilities">Facilities</a></li>
                     <li class="a"><a class="b" href="events">School Events</a></li>
-                    <li class="a"><a class="b" href="school.php">Downloads</a></li>
+                    <li class="a"><a class="b" href="comingSoon">Downloads</a></li>
                 </ul>
              </li>
             <li><a href="gallery.php">Gallery</a></li>
@@ -111,10 +111,10 @@
     </div>
     <div class="navigation-items nav-school">
         <a>School</a>
-        <a href="#">Management</a>
+        <a href="comingSoon">Management</a>
         <a href="aims">Aims & Objectives</a>
         <a href="facilities">Facilities</a>
-        <a href="#">Downloads</a>
+        <a href="comingSoon">Downloads</a>
         <a href="events">School Events</a>
     </div>
 </div>
