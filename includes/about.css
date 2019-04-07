@@ -62,7 +62,7 @@
 }
 
 .box-title-dark{
-    color: #761FAB;
+    color: rgb(114, 6, 255);
 }
 
 .box-title-light{
@@ -73,7 +73,7 @@
 .box-right{
     width: 50%;
     /* align-items: center; */
-    background-color: #761FAB;
+    background-color: rgb(114, 6, 255);
     padding: -2px;
     padding-left: 20px;
     border-radius: 42px;
@@ -93,8 +93,8 @@
     font-size: 17px;
     padding: 13px 18px;
     margin: 10px;
-    color: #761FAB;
-    border: 1.5px solid #761FAB;
+    color: rgb(114, 6, 255);
+    border: 1.5px solid rgb(114, 6, 255);
     border-radius: 13px;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -105,12 +105,12 @@
 }
 
 .inputs::placeholder{
-    color: #761FAB;
+    color: rgb(114, 6, 255);
     opacity: 0.5;
 }
 
 .send-button{
-    background-color: #761FAB;
+    background-color: rgb(114, 6, 255);
     color: white;
     font-weight: 400;
 }
