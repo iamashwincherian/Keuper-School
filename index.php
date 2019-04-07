@@ -16,7 +16,7 @@
         <p id="gallery-title" class="hots-title">Gallery</p>
         <img id="hots-gallery-img" src="lib/imgs/gallery-img.png" alt="Gallery Img">
         <hr id="hr-gallery">
-        <a href="gallery.php" class="view-more">View More →</a>
+        <a href="gallery" class="view-more">View More →</a>
     </div>
     <div class="hots levents">
         <p id="events-title" class="hots-title">Latest Events</p>
@@ -41,7 +41,7 @@
                 </div>
             </div>
         <hr id="hr-events">
-        <a href="events.php" class="view-more">View More →</a>
+        <a href="events" class="view-more">View More →</a>
     </div>
 </section>
     

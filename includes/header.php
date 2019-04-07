@@ -16,6 +16,8 @@
     <link href="includes/nav.css" rel="stylesheet">
     <link href="includes/facilities.css" rel="stylesheet">
     <link href="includes/about.css" rel="stylesheet">
+    <link href="includes/gallery.css" rel="stylesheet">
+    <link href="includes/events.css" rel="stylesheet">
 
 </head>
 <body>

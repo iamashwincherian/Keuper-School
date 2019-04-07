@@ -85,7 +85,7 @@
                     <li class="a"><a class="b" href="school.php">Management</a></li>
                     <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
                     <li class="a"><a class="b" href="facilities">Facilities</a></li>
-                    <li class="a"><a class="b" href="school.php">School Events</a></li>
+                    <li class="a"><a class="b" href="events">School Events</a></li>
                     <li class="a"><a class="b" href="school.php">Downloads</a></li>
                 </ul>
              </li>
@@ -106,7 +106,7 @@
         <a>Keuper School</a>
         <a href="index">Home</a>
         <a href="#" id="nav-school">School</a>
-        <a href="#">Gallery</a>
+        <a href="gallery">Gallery</a>
         <a href="about">About Us</a>
     </div>
     <div class="navigation-items nav-school">
@@ -115,6 +115,6 @@
         <a href="aims">Aims & Objectives</a>
         <a href="facilities">Facilities</a>
         <a href="#">Downloads</a>
-        <a href="#">School Events</a>
+        <a href="events">School Events</a>
     </div>
 </div>
