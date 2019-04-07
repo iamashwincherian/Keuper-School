@@ -60,6 +60,8 @@
 
 .section-gallery h1{
     flex: 0 0 100%;
+    text-align: center;
+    width: 100%;
 }
 
 @media screen and (max-width: 550px){
@@ -70,4 +72,6 @@
     .section-gallery{
         padding: 30px 40px;
     }
+
+
 }
