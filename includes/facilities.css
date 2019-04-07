@@ -1,5 +1,5 @@
 .section-facilities {
-    background-color: #30BF47;
+    background-color: #259E38;
     display: flex;
     padding: 50px 0 100px 0;
     justify-content: space-between;
@@ -132,15 +132,5 @@
         font-size: 25px;
     }
 
-}
-
-footer{
-    flex: 0 0 100%;
-    width: 100%;
-}
-
-.section-facilities{
-    background-image: linear-gradient(#30BF47 20%, #3D3D3D 90%);
-    padding-bottom: 0;
 }
 

@@ -72,7 +72,7 @@
         </ul>
 
         <ul class="ul ul-left ul-left-responsive">
-            <li><img src="lib/imgs/logo.png" href="index" alt="logo" id="logo" class="logo"></li>
+            <li><a href="index"><img src="lib/imgs/logo.png" alt="logo" id="logo" class="logo"></a></li><li><img src="lib/imgs/logo.png" href="index" alt="logo" id="logo" class="logo"></li>
             <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
             <li><p class="logo-title" id="logo-title-right">School</p></li>
             <li><p class="logo-subline" href="index" id="logo-subline">45 years in teaching</p></li>
