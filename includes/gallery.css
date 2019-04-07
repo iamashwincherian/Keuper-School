@@ -45,9 +45,6 @@
     position: relative;
 }
 
-.img:hover .overlay {
-    opacity: 1;
-}
 
 .overlay p{
     color: white;
