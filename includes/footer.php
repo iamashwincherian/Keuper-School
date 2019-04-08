@@ -16,8 +16,8 @@
     <div class="footer-content footer-follow">
         <p class="footer-content-title footer-content-title-center-follow">Follow Us</p>
         <div class="footer-contact-social">
-            <a href="#"><i class="fab fa-facebook-f social-icon social-icon-facebook"></i></a>
-            <a href="#"><i class="fab fa-youtube social-icon social-icon-youtube"></i></a>
+            <a href="https://www.facebook.com/keuperkids/"><i class="fab fa-facebook-f social-icon social-icon-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCm4NsUmimgtAaAp0LQxSdkQ"><i class="fab fa-youtube social-icon social-icon-youtube"></i></a>
         </div>
     </div>
 </footer>
