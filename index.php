@@ -8,7 +8,7 @@
 
 <section class="section-hero">
     <p class="hero hero-title">Good start for your child</p>
-    <p class="hero hero-subline">Aenean nonummyendrerit maurhasellus portasce susci varius mi. Cum sociis natoque penatibus et mag dis parturient ontes nascetur ridiculus mus. Nulla du usce feugiat malesuada odio. Morbi nunc odio gravi.</p>
+    <p class="hero hero-subline"><span class="quotes">"</span>Let my teachings fall like rain and my words descent like dew, like showers on new grass, like abundant rain on tender plants.<span class="quotes">"</span></p>
 </section>
 
 <section class="section-hots">
@@ -23,21 +23,21 @@
             <div class="events event1">
                 <div class="event-date">
                     <div class="event-date-month event-line1"><p>March</p></div>
-                    <div class="event-date-day"><p>30</p></div>
+                    <div class="event-date-day"><p>02</p></div>
                 </div>
                 <div class="event-details">
                     <div class="event-details-title event-line1">Annual Day Celebration</div>
-                    <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
+                    <div class="event-details-desc">Mesmerizing and enerygy filled night with parents and children were celebrated. Updates can be found on our gallery, facebook page and youtube.</div>
                 </div>
             </div>
             <div class="events event2">
                 <div class="event-date">
-                    <div class="event-date-month event-line1"><p>May</p></div>
-                    <div class="event-date-day"><p>05</p></div>
+                    <div class="event-date-month event-line1"><p>June</p></div>
+                    <div class="event-date-day"><p>03</p></div>
                 </div>
                 <div class="event-details">
                     <div class="event-details-title event-line1">School Reopening</div>
-                    <div class="event-details-desc">Turie ntots nascetur riculus mullamale ada odi dio gravida atcur ecuus a lorm ecaistique orci ac sis ultricpharetra gna. Donec accusan malsuad.</div>
+                    <div class="event-details-desc">Back to School. It will be a half day for all the children.</div>
                 </div>
             </div>
         <hr id="hr-events">
