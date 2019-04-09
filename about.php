@@ -24,7 +24,10 @@
             <div class="box box-right">
                 <div class="box-right-contents">
                     <p class="box-title box-title-light">Contact Us</p>  
-                    <p class="contact-phone contact-items"><span><i class="fas fa-phone contact-icon"></i></span> +91 9686994492<br>            +91 8884644492<br>            +91 7090444492</p>              
+                    <p class="contact-phone contact-items contact-address">
+                        <i class="fas fa-phone contact-icon">
+                        </i> +91 9686994492<br>+91 8884644492<br>+91 7090444492
+                    </p>
                     <p class="contact-email contact-items"><span><i class="fas fa-paper-plane contact-icon"></i></span> keuperschool@gmail.com</p>    
                     <div class="contact-item contact-address">
                         <i class="fas fa-map-marker-alt contact-icon"></i>
@@ -39,9 +42,11 @@
 
     <div class="footer-grad">
         <div class="footer-grad-content footer-grad-contact">
-            <p class="footer-grad-content-title">Contact</p>
-            <p class="footer-grad-subcontent contact-content">Phone : +91 9876543210</p>
-            <p class="footer-grad-subcontent contact-content">info@keuperschool.com</p>
+            <!-- <p class="footer-grad-content-title">Contact</p>
+            <p class="footer-grad-subcontent contact-content">Phone : +91 9876543210</p> -->
+            <p class="footer-subcontent contact-content phone">Phone : +91 9686994492<br>               +91 8884644492<br>               +91 7090444492</p>
+            <p class="footer-subcontent contact-content phone-res">Phone : <br>+91 9686994492<br>+91 8884644492<br>+91 7090444492</p>
+            <p class="footer-grad-subcontent contact-content">keuperschool@gmail.com</p>
             <p class="footer-grad-subcontent contact-content address">#44, Maruthi Meadows, Opp. SABC Bible College, Hennur - Bagalur Main Road, Kothanur Post, Bengaluru, Karnataka 560077</p>
         </div>
         <div class="footer-grad-content footer-grad-center">
