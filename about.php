@@ -15,12 +15,30 @@
         <div class="about-box">
             <div class="box box-left">
                 <p class="box-title box-title-dark">Write to Us</p>
-                <form action="" class="about-form">
-                    <input type="text" placeholder="Name" class="inputs">
-                    <input type="email" placeholder="Email" class="inputs">
+                <form action="" class="about-form" method="POST">
+                    <input type="text" placeholder="Name" class="inputs" name="name">
+                    <input type="email" placeholder="Email" class="inputs" name="email">
                     <textarea name="message" class="inputs" id="message" cols="30" rows="8" placeholder="Message"></textarea>
-                    <button type="submit" class="inputs send-button">Send</button>
+                    <button type="submit" name="submit" class="inputs send-button">Send</button>
                 </form>
+
+<?php 
+
+    if(isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $subject = "Enquiry";
+        $message = $_POST['message'];
+
+        $mailTo = "iamashwincherian@gmail.com";
+        $headers = "From: ".$email;
+        $txt = "You have recieved an email from ".$name.".\n\n".$message;
+
+        mail($email, $subject, $txt, $headers);
+    }
+
+?>
+
             </div>
             <div class="box box-right">
                 <div class="box-right-contents">
