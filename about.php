@@ -26,7 +26,7 @@
     if(isset($_POST['email'])) {
     
         // EDIT THE 2 LINES BELOW AS REQUIRED
-        $email_to = "iamashwincherian@gmail.com";
+        $email_to = "enquiry@keuperedu.com";
         $email_subject = "Enquery Email";
     
         function died($error) {
@@ -73,7 +73,7 @@
             died($error_message);
         }
     
-        $email_message = "Enquery Details : \n\n";
+        $email_message = "Enquiry Details : \n\n";
     
         
         function clean_string($string) {
