@@ -117,6 +117,7 @@
 
 .send-button:hover{
     background-color: #552397;
+    cursor: pointer;
 }
 
 .contact-items{
