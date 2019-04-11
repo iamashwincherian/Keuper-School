@@ -1,19 +1,5 @@
-h1 {
-    font-size: 30px;
-    color: white;
-    padding: 20px 20px 20px 0px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
 
-h2 {
-    font-size: 23px;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
-.section-aims {
+.section-management {
     background-color: #FFA727;
     display: flex;
     padding: 50px 0 100px 0;
@@ -21,19 +7,23 @@ h2 {
     flex-wrap: wrap;
 }
 
-.aims{
+.management{
     display: flex;
     flex-direction: column;
 }
 
-.aims-heading{
+.management-heading{
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.404);
     margin-left: 80px;
     padding-bottom: 10px;
 }
 
-#aims-img {
+.management-body h2{
+    font-weight: 600;
+}
+
+#management-img {
     height: 500px;
     width: auto;
     margin-right: 100px;
@@ -54,47 +44,43 @@ h2 {
     padding: 0 10px;
 }
 
-.aims-body{
+.management-body{
     padding-top: 20px;
     margin-left: 80px;
-    width: 800px;
+    width: 60%;
 }
 
-.aims-body ul{
+.management-body p{
     padding: 10px 0;
 }
 
-.aims-body h2{
-    font-weight: 600;
-}
-
-.aims-body ul>li {
+.management-body p {
     font-size: 20px;
     margin: 10px 0;
 }
 
 @media screen and (max-width: 1480px){
-    .section-aims{
+    .section-management{
         justify-content: center;
     }
 
-    .aims{
+    .management{
         display: flex;
         align-content: center;
     }
 
-    .aims-body h2{
+    .management-body h2{
         text-align: center;
     }
 
-    .aims-heading {
+    .management-heading {
         flex-direction: column;
         margin-left: 0;
         margin: 0 80px;
     }
 
-    .aims-heading h1,
-    .aims-heading p{
+    .management-heading h1,
+    .management-heading p{
         text-align: center;
     }
 
@@ -102,13 +88,13 @@ h2 {
         padding: 0 0 10px 0;
     }
 
-    #aims-img {
+    #management-img {
         height: 400px;
         width: auto;
         margin-right: 0;
     }
 
-    .aims-body{
+    .management-body{
         width: auto;
         padding: 0 20px;
         margin-left: 0;
@@ -117,12 +103,12 @@ h2 {
 }
 
 @media screen and (max-width: 510px){
-    .aims-heading,
-    .aims-body{
+    .management-heading,
+    .management-body{
         margin: 0 20px;
     }
 
-    .aims-body{
+    .management-body{
         margin-top: 20px;
         padding-right: 0;
     }
@@ -131,26 +117,26 @@ h2 {
         display: none;
     }
 
-    .aims-heading h1{
+    .management-heading h1{
         padding-right: 0;
     }
 
-    #aims-img {
+    #management-img {
         height: 300px;
         width: auto;
     }
 }
 
 @media screen and (max-width: 400px){
-    .section-aims{
+    .section-management{
         padding-top: 15px;
     }
 
-    .aims-heading h1{
+    .management-heading h1{
         font-size: 25px;
     }
 
-    .aims-body h2{
+    .management-body h2{
         font-size: 18px;
     }
 }

@@ -45,12 +45,12 @@
     background-color: white;
     border-radius: 42px;
     box-shadow: -1px -1px 36px 0px rgba(0,0,0,0.41);
-    padding: 0;
 }
 
 .box{
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .box-title{
@@ -288,6 +288,10 @@
     font-weight: 600;
     letter-spacing: 3px;
     margin: 10px 0;
+}
+
+.footer-grad-content-title-center{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer-grad-content-title-center,

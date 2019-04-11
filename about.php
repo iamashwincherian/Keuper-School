@@ -17,6 +17,7 @@
                 <p class="box-title box-title-dark">Write to Us</p>
                 <form action="" class="about-form">
                     <input type="text" placeholder="Name" class="inputs">
+                    <input type="email" placeholder="Email" class="inputs">
                     <textarea name="message" class="inputs" id="message" cols="30" rows="8" placeholder="Message"></textarea>
                     <button type="submit" class="inputs send-button">Send</button>
                 </form>
@@ -42,8 +43,8 @@
 
     <div class="footer-grad">
         <div class="footer-grad-content footer-grad-contact">
-            <!-- <p class="footer-grad-content-title">Contact</p>
-            <p class="footer-grad-subcontent contact-content">Phone : +91 9876543210</p> -->
+            <p class="footer-grad-content-title">Contact</p>
+            <!-- <p class="footer-grad-subcontent contact-content">Phone : +91 9876543210</p> -->
             <p class="footer-subcontent contact-content phone">Phone : +91 9686994492<br>               +91 8884644492<br>               +91 7090444492</p>
             <p class="footer-subcontent contact-content phone-res">Phone : <br>+91 9686994492<br>+91 8884644492<br>+91 7090444492</p>
             <p class="footer-grad-subcontent contact-content">keuperschool@gmail.com</p>

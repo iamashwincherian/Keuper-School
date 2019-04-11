@@ -63,7 +63,7 @@
     <div class="uls">
 
         <ul class="ul ul-left ul-left-unresponsive">
-            <li><a href="index"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
+            <li><a href="/"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
             <div class="headline">
                 <li><p class="logo-title" id="logo-title-left"><strong>Keuper</strong></p></li>
                 <li><p class="logo-title" id="logo-title-right"><strong>School</strong></p></li>
@@ -72,24 +72,24 @@
         </ul>
 
         <ul class="ul ul-left ul-left-responsive">
-            <li><a href="index"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
+            <li><a href="/"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
             <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
             <li><p class="logo-title" id="logo-title-right">School</p></li>
             <!-- <li><p class="logo-subline" href="index" id="logo-subline">45 years in teaching</p></li> -->
         </ul>
         <ul class="ul ul-right">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">School</a>
                 <ul class="nav-school-inner">
                     <li style="background: none; height: 50px;"></li>
-                    <li class="a"><a class="b" href="comingSoon">Management</a></li>
+                    <li class="a"><a class="b" href="management">Management</a></li>
                     <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
                     <li class="a"><a class="b" href="facilities">Facilities</a></li>
                     <li class="a"><a class="b" href="events">School Events</a></li>
                     <li class="a"><a class="b" href="comingSoon">Downloads</a></li>
                 </ul>
              </li>
-            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="gallery">Gallery</a></li>
             <li><a href="about">About Us</a></li>
         </ul>
     </div>
@@ -104,14 +104,14 @@
     </div>
     <div class="navigation-items nav-home">
         <a>Keuper School</a>
-        <a href="index">Home</a>
+        <a href="/">Home</a>
         <a href="#" id="nav-school">School</a>
         <a href="gallery">Gallery</a>
         <a href="about">About Us</a>
     </div>
     <div class="navigation-items nav-school">
         <a>School</a>
-        <a href="comingSoon">Management</a>
+        <a href="management">Management</a>
         <a href="aims">Aims & Objectives</a>
         <a href="facilities">Facilities</a>
         <a href="comingSoon">Downloads</a>

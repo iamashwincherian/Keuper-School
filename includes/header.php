@@ -21,6 +21,7 @@
     <link href="includes/gallery.css" rel="stylesheet">
     <link href="includes/events.css" rel="stylesheet">
     <link href="includes/comingSoon.css" rel="stylesheet">
+    <link href="includes/management.css" rel="stylesheet">
 
 </head>
 <body>
