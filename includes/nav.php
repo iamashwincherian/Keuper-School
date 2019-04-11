@@ -86,7 +86,7 @@
                     <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
                     <li class="a"><a class="b" href="facilities">Facilities</a></li>
                     <li class="a"><a class="b" href="events">School Events</a></li>
-                    <li class="a"><a class="b" href="comingSoon">Downloads</a></li>
+                    <li class="a"><a class="b" href="downloads">Downloads</a></li>
                 </ul>
              </li>
             <li><a href="gallery">Gallery</a></li>
@@ -114,7 +114,7 @@
         <a href="management">Management</a>
         <a href="aims">Aims & Objectives</a>
         <a href="facilities">Facilities</a>
-        <a href="comingSoon">Downloads</a>
+        <a href="downloads">Downloads</a>
         <a href="events">School Events</a>
     </div>
 </div>

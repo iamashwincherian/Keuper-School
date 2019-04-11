@@ -1,0 +1,125 @@
+.section-downloads {
+    background-color: #E13535;
+    display: flex;
+    padding: 50px 0px 100px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.downloads{
+    width: 100%;
+    margin: 0 80px;
+}
+
+.downloads-heading{
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+    padding-bottom: 10px;
+}
+
+.link{
+    display: inline-block;
+    margin: auto 0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.link>span{
+    padding: 0 10px;
+}
+
+.downloads-body{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download h2{
+    text-align: center;
+}
+
+.download-imgs{
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    -webkit-box-shadow: 6px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 23px 0px rgba(0,0,0,0.75);
+    border-radius: 28px;
+}
+
+@media screen and (max-width: 1480px){
+    .section-downloads{
+        justify-content: center;
+    }
+
+    .downloads-heading {
+        flex-direction: column;
+        margin-left: 0;
+        margin: 0 80px;
+    }
+
+    .downloads-heading h1,
+    .downloads-heading p{
+        text-align: center;
+    }
+
+    .link{
+        padding: 0 0 10px 0;
+    }
+
+    .downloads-body{
+        width: auto;
+        padding: 0 20px;
+        margin-left: 0;
+        margin: 10px 80px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .downloads-heading,
+    .downloads-body{
+        margin: 0 20px;
+    }
+
+    .downloads-body{
+        margin-top: 20px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .downloads-heading h1{
+        padding-right: 0;
+    }
+
+    .download{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .section-downloads{
+        padding-top: 15px;
+        align-content: center;
+    }
+
+    .downloads-heading h1{
+        font-size: 25px;
+    }
+
+}
+
