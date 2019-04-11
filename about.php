@@ -27,7 +27,7 @@
     
         // EDIT THE 2 LINES BELOW AS REQUIRED
         $email_to = "enquiry@keuperedu.com";
-        $email_subject = "Enquery Email";
+        $email_subject = "Enquiry Email";
     
         function died($error) {
             // your error code can go here
