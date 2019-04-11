@@ -3,7 +3,7 @@
         <p class="footer-content-title">Contact</p>
         <p class="footer-subcontent contact-content phone">Phone : +91 9686994492<br>               +91 8884644492<br>               +91 7090444492</p>
         <p class="footer-subcontent contact-content phone-res">Phone : <br>+91 9686994492<br>+91 8884644492<br>+91 7090444492</p>
-        <p class="footer-subcontent contact-content">Email : keuperschool@gmail.com</p>
+        <p class="footer-subcontent contact-content">Email : info@keuperedu.com</p>
         <p class="footer-subcontent contact-content address">#44, Maruthi Meadows, Opp. SABC Bible College, Hennur - Bagalur Main Road, Kothanur Post, Bengaluru, Karnataka 560077</p>
         
 

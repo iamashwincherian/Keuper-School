@@ -1,6 +1,4 @@
-.section-about {
-    /* background-color: #8B29C8; */
-    /* background: linear-gradient(#8B29C8, #3D3D3D 90%); */
+.section-about{
     background: linear-gradient(#552397, #3D3D3D 80%);
     display: flex;
     flex-direction: column;
@@ -127,15 +125,14 @@
 }
 
 .contact-icon{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 40px;
     color: white;
     margin-top: 20px;
 }
 
-.contact-address{
+.contact-res{
     display: flex;
-    
 }
 
 .contact-item-address{
@@ -261,130 +258,5 @@
         font-size: 17px;
     }
 }
-
-
-
-/* --------------- footer-grad --------------- */
-
-.footer-grad{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch | flex-start | flex-end | center | baseline;
-    /* background: #3D3D3D; */
-    padding: 70px 0;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 0px;
-}
-
-.footer-grad-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer-grad-content-title{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin: 10px 0;
-}
-
-.footer-grad-content-title-center{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-grad-content-title-center,
-.footer-grad-content-center-creator,
-.footer-grad-content-center-copy,
-.footer-grad-content-title-center-follow{
-    text-align: center;
-}
-
-.footer-grad-center{
-    align-content: center;
-}
-
-.footer-grad-subcontent{
-    color: #818181;
-    font-weight: 600;
-    margin: 3px 0;
-}
-
-.address,
-.footer-grad-follow{
-    width: 400px;
-}
-
-.footer-grad-contact-social{
-    display: flex;
-    justify-content: center;
-}
-
-.footer-grad-content-center-copy{
-    font-size: 15px;
-}
-
-.social-icon{
-    font-size: 30px;
-    margin: 0 10px;
-    color: #fff;
-}
-
-.code-icon{
-    color: #fff;
-}
-
-.social-icon-facebook:hover{
-    color: #4267b2;
-}
-
-.social-icon-youtube:hover{
-    color: #ff0000;
-}
-
-@media screen and (max-width: 1200px) {
-    .footer-grad-center{
-        flex: 0 0 100%;
-        order: 3;
-    }
-
-    .footer-grad-content{
-        margin: 20px 0;
-    }
-
-    .footer-grad-content-title,
-    .contact-content{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 800px) {
-
-    .footer-grad-follow{
-        order: -2;
-    }
-
-    .footer-grad-content{
-        margin: 0;
-    }
-
-    .footer-grad-contact{
-        margin: 20px 0;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-    .address{
-        width: 200px;
-    }
-
-    .footer-grad{
-        padding: 40px 0;
-    }
-}
-
 
 /* ----------------------------------- */
