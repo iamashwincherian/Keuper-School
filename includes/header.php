@@ -25,5 +25,6 @@
     <link href="includes/footer-grad.css" rel="stylesheet">
     <link href="includes/downloads.css" rel="stylesheet">
     <link href="includes/snackbar.css" rel="stylesheet">
+    <link href="admin/admin.css" rel="stylesheet">
 </head>
 <body>
