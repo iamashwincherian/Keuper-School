@@ -90,7 +90,16 @@
                 </ul>
              </li>
             <li><a href="gallery">Gallery</a></li>
-            <li><a href="about">About Us</a></li>
+            <li><a href="about">About Us</a>
+                <ul class="nav-school-inner">
+                    <li style="background: none; height: 50px;"></li>
+                    <li class="a"><a class="b" href="management">Management</a></li>
+                    <li class="a"><a class="b" href="aims">Aims & Objectives</a></li>
+                    <li class="a"><a class="b" href="facilities">Facilities</a></li>
+                    <li class="a"><a class="b" href="events">School Events</a></li>
+                    <li class="a"><a class="b" href="downloads">Downloads</a></li>
+                </ul>    
+            </li>
         </ul>
     </div>
 </nav>

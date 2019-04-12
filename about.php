@@ -2,6 +2,14 @@
 
 <?php include "includes/nav.php" ?>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
 <div class="nav-space"></div>
 
 <section class="section-about">
@@ -22,6 +30,7 @@
                     <button type="submit" name="submit" class="inputs send-button">Send</button>
                 </form>
             </div>
+            <div id="snackbar">Some text some message..</div>
             <div class="box box-right">
                 <div class="box-right-contents">
                     <p class="box-title box-title-light">Contact Us</p>  
