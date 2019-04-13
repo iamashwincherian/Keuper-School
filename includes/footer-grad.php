@@ -13,6 +13,18 @@
             <p class="footer-grad-content-title footer-grad-content-title-center">KEUPER SCHOOL</p>
             <p class="footer-grad-content-center-copy footer-grad-subcontent">Copyright &copy 2019, All rights reserved to Keuper</p>
             <p class="footer-grad-content-center-creator footer-grad-subcontent">Created <i class="fas fa-code code-icon"></i> by Ashwin Cherian Joseph</p>
+            <?php
+                if(isset($_SESSION['username'])){
+            ?>
+
+            <a class="footer-grad-content-center-creator footer-grad-subcontent" href="admin/logout">Logout</a>
+            
+            <?php } else { ?>
+
+            <a class="footer-grad-content-center-creator footer-grad-subcontent" href="./login">Admin Login</a>
+
+            <?php } ?>
+
         </div>
         <div class="footer-grad-content footer-grad-follow">
             <p class="footer-grad-content-title footer-grad-content-title-center-follow">Follow Us</p>

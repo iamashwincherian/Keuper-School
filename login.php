@@ -4,6 +4,12 @@
 
 <!-- -------------- body -------------- -->
 
+<?php 
+    if(isset($_SESSION['username'])){
+        header("Location: comingSoon");
+    }
+?>
+
 <section class="section-login">
     <h2>Admin Login</h2>
     <form class="login" method="POST">
@@ -24,7 +30,10 @@
 <?php 
     if(isset($_POST['submit'])){
         if($_POST['username'] == "Keuper" && $_POST['password'] == "Keuper"){
+
+            $_SESSION['username'] = $_POST['username'];
             header("Location: comingSoon");
+
         }
         else{
             $message = "Invalid Username/Password";

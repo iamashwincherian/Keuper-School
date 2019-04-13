@@ -28,5 +28,17 @@
     <link href="includes/downloads.css" rel="stylesheet">
     <link href="includes/snackbar.css" rel="stylesheet">
     <link href="admin/admin.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138237477-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138237477-1');
+    </script>
+    
 </head>
 <body>
