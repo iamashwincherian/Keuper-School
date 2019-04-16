@@ -1,18 +1,9 @@
-<?php include "includes/header.php" ?>
-<?php include "includes/nav.php" ?>
-<div class="nav-space"></div>
 
-<!-- -------------- body -------------- -->
-
-<?php 
-    if(isset($_SESSION['username'])){
-        header("Location: comingSoon");
-    }
-?>
+<?php include "includes/header.php"; ?>
 
 <section class="section-login">
     <h2>Admin Login</h2>
-    <form class="login" method="POST">
+    <form class="login" method="GET">
         <label for="username" class="login-item login-label">Username</label>
         <input type="text" class="login-item login-input" placeholder="Admin" name="username" required>
         <hr>
@@ -23,16 +14,12 @@
 
 </section>
 
-<!-- ---------------------------------- -->
-
-<?php include "includes/footer.php" ?> 
-
 <?php 
-    if(isset($_POST['submit'])){
-        if($_POST['username'] == "Keuper" && $_POST['password'] == "Keuper"){
+    if(isset($_GET['submit'])){
+        if($_GET['username'] == "Keuper" && $_GET['password'] == "Keuper"){
 
-            $_SESSION['username'] = $_POST['username'];
-            header("Location: comingSoon");
+            $_SESSION['username'] = $_GET['username'];
+            header("Location: ../admin");
 
         }
         else{
@@ -41,3 +28,5 @@
         }
     };
 ?>
+
+<?php include "includes/footer.php"; ?>
