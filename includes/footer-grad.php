@@ -21,7 +21,7 @@
             
             <?php } else { ?>
 
-            <a class="footer-grad-content-center-creator footer-grad-subcontent" href="./login">Admin Login</a>
+            <a class="footer-grad-content-center-creator footer-grad-subcontent" href="./admin">Admin Login</a>
 
             <?php } ?>
 
