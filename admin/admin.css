@@ -72,7 +72,7 @@ textarea:focus, input:focus{
     }
 }
 
-/* -------- Panels -------- */
+/* -------- Dashboard -------- */
 
 .section-panels{
     height: 100vh;
@@ -104,7 +104,7 @@ textarea:focus, input:focus{
     letter-spacing: 1px;
     padding: 20px 30px;
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 10px 0;
     border-radius: 45px;
 }
@@ -114,6 +114,7 @@ textarea:focus, input:focus{
     background-color: #1666DE;
     box-shadow: 2px 4px 25px -7px rgba(0,0,0,0.75);
     cursor: pointer;
+    transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .panel-icon{
@@ -123,4 +124,105 @@ textarea:focus, input:focus{
 
 .admin-body{
     width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-head{
+    background-color: #1666DE;
+    padding: 25px;
+    border-radius: 52.5px;
+    margin: 20px;
+    box-shadow: 2px 4px 25px -7px rgba(0,0,0,0.75);
+}
+
+.panel-head h2{
+    color: white;
+    margin: 0 20px;
+}
+
+.cat-blue{
+    background-color: #1666DE;
+    color: white;
+    box-shadow: 2px 4px 25px -7px rgba(0,0,0,0.75);
+}
+
+.panel-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.panel-body h2{
+    color: #1666DE;
+    font-size: 30px;
+    padding: 10px 0;
+    margin-left: 50px;
+}
+
+.gallery-albums{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.23);
+    border-radius: 10px;
+}
+
+.create-new-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5 solid #1666DE;
+    box-shadow: 0px 0px 8px 1px rgba(22,102,222,1);
+}
+
+.create-new-album p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1666DE;
+    padding: 65px;
+}
+
+.album-image{
+    max-width: 250px;
+    height: auto;
+}
+
+.album-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #777777;
+    text-align: center;
+    padding: 20px 0;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.album:hover{
+    box-shadow: 0px 0px 8px 1px rgba(22,102,222,1);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.album:hover p {
+    color: #1666DE;
+    transition: color 0.2s ease-in-out;
+}
+
+.create-new-album:hover{
+    background-color: #1666DE;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.create-new-album:hover p{
+    color: white;
+    transition: color 0.2s ease-in-out;
 }
