@@ -1,8 +1,7 @@
-<?php include "../includes/header.php" ?>
 
 <?php
-
-    $_SESSION['username'] = null;
-    header("Location: ../admin");
-
+    if(isset($_GET['logout'])){
+        $_SESSION['username'] = null;
+        header("Location: ../admin");
+    }
 ?>

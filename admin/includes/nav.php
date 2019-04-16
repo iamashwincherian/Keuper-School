@@ -1,5 +1,5 @@
     <div class="admin-nav">
-        <img src="../lib/imgs/logo-new.png" alt="logo" class="logo-admin">
+        <a href="../index"><img src="../lib/imgs/logo-new.png" alt="logo" class="logo-admin"></a>
         <div class="categories">
             <a href="index" class="category dashboard-button cat-blue">
                 <i class="fas fa-tachometer-alt panel-icon"></i>
@@ -22,7 +22,7 @@
                 <p class="category-title">Pop Up</p>
             </a>
             <a href="#" class="category dashboard-button">
-                <i class="far fa-images panel-icon"></i>
+                <i class="fas fa-cog panel-icon"></i>
                 <p class="category-title">Settings</p>
             </a>
         </div>

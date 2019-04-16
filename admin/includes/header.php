@@ -2,7 +2,7 @@
 <?php ob_start() ?>
 <?php session_start() ?>
 <?php header('Cache-Control: no-cache, must-revalidate, max-age=0') ?>
-
+<?php include "includes/db.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">

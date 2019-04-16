@@ -10,7 +10,7 @@
         <input type="password" class="login-item login-input" placeholder="••••••••" name="password" required>
         <button type="submit" name="submit" class="login-button">Login</button>
     </form>
-
+    <a href="../index">Go Home</a>
 </section>
 
 <?php 

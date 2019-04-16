@@ -15,6 +15,14 @@
     color: white;
 }
 
+.section-login a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px;
+}
+
 .login{
     background: white;
     display: flex;
@@ -134,11 +142,19 @@ textarea:focus, input:focus{
     border-radius: 52.5px;
     margin: 20px;
     box-shadow: 2px 4px 25px -7px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
 }
 
 .panel-head h2{
     color: white;
     margin: 0 20px;
+}
+
+.panel-head h3{
+    color: white;
+    margin: 0 20px;
+    margin-top: 3px;
 }
 
 .cat-blue{
