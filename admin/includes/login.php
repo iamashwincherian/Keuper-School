@@ -1,5 +1,4 @@
 
-<?php include "includes/header.php"; ?>
 
 <section class="section-login">
     <h2>Admin Login</h2>
@@ -28,5 +27,3 @@
         }
     };
 ?>
-
-<?php include "includes/footer.php"; ?>

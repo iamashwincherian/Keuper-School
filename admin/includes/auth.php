@@ -1,5 +1,10 @@
 <?php
-    if(!isset($_SESSION['username'])){
-        header("Location: login");
+    function auth(){
+        if(isset($_SESSION['username'])){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 ?>

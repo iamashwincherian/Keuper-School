@@ -1,7 +1,8 @@
-
+<?php include "includes/auth.php"; ?>
 <?php ob_start() ?>
 <?php session_start() ?>
 <?php header('Cache-Control: no-cache, must-revalidate, max-age=0') ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
