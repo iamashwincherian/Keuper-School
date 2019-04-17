@@ -20,14 +20,15 @@
     
 <?php
 
-    $query = "SELECT * FROM albums";
-    $result = mysqli_query($connect, $query);
+    if(isset($_GET['album'])){
+        $albums = mysqli_query($connect, "SELECT * FROM albums WHERE id={$_GET['album']}");
+    }
 
 ?>
 
     <div class="admin-body">
         <div class="panel-head">
-            <h2>Gallery</h2>
+            <h2>Album</h2>
             <a href="?logout"><h3>Logout</h3></a>
         </div>
         <div class="panel-body">
@@ -41,10 +42,10 @@
                 <a href="new" class="create-new-album album"><p>Create New</p></a>
 <?php  }
     foreach($result as $album){ 
-        echo "<a href='album?id={$album['id']}' class='album'>";
+        echo "<div class='album'>";
         echo "<img src='../lib/imgs/gallery-img.png' alt='Image' class='album-image'>";
         echo "<p class='album-title'>{$album['name']}</p>";
-        echo "</a>";
+        echo "</div>";
     };
 ?>
                 <!-- <div class="album">
