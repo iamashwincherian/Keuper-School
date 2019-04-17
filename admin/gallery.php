@@ -27,7 +27,7 @@
 
     <div class="admin-body">
         <div class="panel-head">
-            <h2>Gallery</h2>
+            <a href="gallery"><h2>Gallery</h2></a>
             <a href="?logout"><h3>Logout</h3></a>
         </div>
         <div class="panel-body">

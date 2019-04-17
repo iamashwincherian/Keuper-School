@@ -1,5 +1,4 @@
 
-
 <section class="section-login">
     <h2>Admin Login</h2>
     <form class="login" method="GET">

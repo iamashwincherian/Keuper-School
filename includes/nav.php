@@ -65,7 +65,7 @@
         <ul class="ul ul-left ul-left-unresponsive">
             <li><a href="/"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
             <div class="headline">
-                <li><p class="logo-title" id="logo-title-left"><strong>Keuper</strong></p></li>
+                <li><p class="logo-title" id="logo-title-left"><strong>Keuper <sup>®</sup></strong></p></li>
                 <li><p class="logo-title" id="logo-title-right"><strong>School</strong></p></li>
                 <!-- <li><a class="logo-subline" href="index">45 years in teaching</a></li> -->
             </div>
@@ -73,7 +73,7 @@
 
         <ul class="ul ul-left ul-left-responsive">
             <li><a href="/"><img src="lib/imgs/logo-new.png" alt="logo" id="logo" class="logo"></a></li>
-            <li><p class="logo-title" id="logo-title-left">Keuper</p></li>
+            <li><p class="logo-title" id="logo-title-left">Keuper <sup>®</sup></p></li>
             <li><p class="logo-title" id="logo-title-right">School</p></li>
             <!-- <li><p class="logo-subline" href="index" id="logo-subline">45 years in teaching</p></li> -->
         </ul>
@@ -108,7 +108,6 @@
     <div class="navigation-head">
         <i class="fas fa-arrow-left icon-back"></i>
         <i class="icon-back-none"></i>
-        <!-- <h1>Keuper school</h1> -->
         <i class="fas fa-times" id="close"></i>
     </div>
     <div class="navigation-items nav-home">

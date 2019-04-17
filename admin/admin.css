@@ -220,6 +220,15 @@ textarea:focus, input:focus{
     height: auto;
 }
 
+.rounded-image{
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.23);    
+}
+
+.rounded-image:hover{
+    box-shadow: 0px 0px 8px 1px rgba(22,102,222,1);
+}
+
 .album-title{
     font-size: 20px;
     font-weight: 700;
@@ -271,6 +280,16 @@ textarea:focus, input:focus{
     order: -1;
 }
 
+.input-group label{
+    order: -1;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
 .form-input{
     padding: 20px 40px 8px 0;
     font-size: 30px;
@@ -303,7 +322,7 @@ textarea:focus, input:focus{
 
 .form-input:focus{
     border-bottom: 1.2px solid #1666DE;
-    color: #1666DE;
+    color: #3D3D3D;
     transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
 }
 
@@ -311,3 +330,60 @@ textarea:focus, input:focus{
     color: #1666DE;
     transition: color 0.2s ease-in-out;
 }  
+
+.delete-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DE1616;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.delete-album:hover{
+    box-shadow: 0px 0px 8px 2px #DE1616;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.delete-album p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 50px;
+}
+
+/* ----------- New Photo -----------*/
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.input-file{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#file-name{
+    font-size: 17px;
+    color: #1666DE;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#photo-label-file{
+    flex: 0 0 100%;
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+  

@@ -17,6 +17,13 @@ a {
     text-decoration: none;
 }
 
+sup{
+    vertical-align: super;
+    font-size: 22px;
+    padding: 0;
+    margin-left: -5px;
+}
+
 #title{
     font-size: 35px;
     color: #29293a;
@@ -185,8 +192,13 @@ li{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.headline:nth-child(2){
+    display: flex;
+}
+
 #logo-title-right{
-    margin-left: -20px;
+    margin-left: -25px;
+    margin-top: 3px;
 }
 
 @media screen and (max-width: 1300px){
